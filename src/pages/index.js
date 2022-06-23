@@ -6,36 +6,72 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
-const features = [
+const avatars = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>Tung Duy</>,
+    imageUrl: 'img/Sample(3).svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Nice
+      </>
+    ),
+    comment: (
+      <>Nice work</>
+    )
+  },
+  {
+    title: <>Thuy Lam</>,
+    imageUrl: 'img/Sample.svg',
+    description: (
+      <>
+        Nice
+      </>
+    ),
+    comment: (
+      <>Nice work</>
+    )
+  },
+  {
+    title: <>Duyen Anh</>,
+    imageUrl: 'img/Sample(1).svg',
+    description: (
+      <>
+        Nice
+      </>
+    ),
+    comment: (
+      <>Nice work</>
+    )
+  }
+]
+
+const features = [
+  {
+    title: <>Easy to cooperate</>,
+    imageUrl: 'img/working.svg',
+    description: (
+      <>
+        Outgoing persona and easy to work with and excel together
       </>
     ),
   },
   {
     title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/teambuilding.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Focus on what matters and getting things done is my motive
       </>
     ),
   },
   {
     title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/meeting.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Fast and effective framework to create beautiful and friendly user experience on any web platform.
       </>
-    ),
+    )
   },
 ];
 
@@ -54,6 +90,63 @@ function Feature({imageUrl, title, description}) {
   );
 }
 
+
+function Hero ({ title, tagline}) {
+  return (
+    <div className={"hero hero--primary"} style={{ height: "25rem"}}>
+      <div className={"container"}>
+        <div className='row'>
+          <div className={'col col--6'} style={{ display: 'flex', alignItems: 'center' }}>
+            <div>
+              <h1 className={"hero__title"}>{title}</h1>
+              <p className={"hero__subtitle"}>{tagline}</p>
+              <button className={"button button--secondary button--lg"}>Learn more</button>
+            </div>
+          </div>
+          <div className='col col--6'>
+            <img className={styles.heroImage} src='img/partnership.svg' alt={features[0].title} />
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function Dowload () {
+  return (
+    <div class="hero hero--primary" style={{ height: '25rem' }}>
+      <div class="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'  }}>
+        <h1 class="hero__title">Click here to dowload my resume</h1>
+        <p class="hero__subtitle">You will definitely not reget</p>
+        <div>
+          <button class="button button--secondary button--lg"><a href='resume/my_resume.pdf' style={{  }}>Dowload</a></button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function Avatar ({ imageUrl, title, description}) {
+  return (
+    <div class="avatar">
+      <a
+        class="avatar__photo-link avatar__photo avatar__photo--lg"
+        href={imageUrl}>
+        <img
+          alt="Dan Abramov Profile"
+          src={imageUrl} />
+      </a>
+      <div class="avatar__intro">
+        <div class="avatar__name">{ title }</div>
+        <small class="avatar__subtitle">
+          {description}
+        </small>
+      </div>
+    </div>
+  )
+}
+
+
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
@@ -61,23 +154,12 @@ function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <header className={classnames('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={classnames(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/doc1')}>
-              Get Started
-            </Link>
-          </div>
-        </div>
-      </header>
+      <Hero title = {siteConfig.title} tagline={siteConfig.tagline} />
       <main>
+        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems : 'center' , marginTop: '2rem'}}>
+          <h1 className={"hero__title"}>How can I help your business ?</h1>
+          <p className={"hero__subtitle"}>Effective and professional</p>
+        </div>
         {features && features.length && (
           <section className={styles.features}>
             <div className="container">
@@ -89,6 +171,27 @@ function Home() {
             </div>
           </section>
         )}
+        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems : 'center' , marginTop: '2rem'}}>
+          <h1 className={"hero__title"}>What do colleague think about me ?</h1>
+          <p className={"hero__subtitle"}>Build trust and long lasting relationship</p>
+        </div>
+        {features && features.length && (
+          <section className={styles.features}>
+            <div className="container">
+              <div className="row">
+                {avatars.map((props, idx) => (
+                  <div className={'col col--4 card'}>
+                    <Avatar imageUrl={props.imageUrl} title={props.title} description={props.description}/>
+                    <div class="card__body">
+                      <small>{props.comment}</small>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+        <Dowload />
       </main>
     </Layout>
   );

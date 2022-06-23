@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Le Hoang Nguyen',
+  tagline: 'Do you know everything about me ?',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -8,24 +8,29 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Le Hoang Nguyen',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       links: [
         {
-          to: 'docs/doc1',
+          to: 'docs/resume',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'About me',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/nguyenplayground',
           label: 'GitHub',
           position: 'right',
         },
+        {
+          href: 'https://www.facebook.com/nguyen.lehoang.56884/',
+          label: 'Facebook',
+          position: 'right',
+        }
       ],
     },
     footer: {

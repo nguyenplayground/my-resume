@@ -34,3 +34,9 @@
   height: 200px;
   width: 200px;
 }
+
+.heroImage {
+  width: 30rem;
+  height: auto;
+  padding: 2rem 0;
+}
