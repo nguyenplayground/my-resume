@@ -43,4 +43,4 @@ Container: Docker
 
 Version control system: Git
 
-[Click here to dowload my resume in pdf](https://my-resume-gules.vercel.app/resume/my_resume.pdf)
+[Click here to dowload my resume in pdf](https://my-resume-gules.vercel.app/resume/lehoangnguyen.pdf)
