@@ -19,6 +19,22 @@ RMIT university
 
 ### Experience
 
+BrightChamps, May 2022 to present
+
+Coding educator
+
+Teaching kids how to code with Scratch, Thunkable, Python
+
+Infie, May 2022 to present
+
+Frontend developer
+
+Design and working on user interface with Vuejs
+
+Devops
+
+Install and setting K3S on digital Ocean
+
 [holux](https://holux-vercel.vercel.app)
 
 Real estate landing page creating with html, css and vanilla javascript deployed on vercel.
