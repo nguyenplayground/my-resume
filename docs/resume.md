@@ -1,9 +1,8 @@
----
-id: resume
-title: My resume
----
+### My resume
 
 ### About me
+
+Name: Le Hoang Nguyen
 
 Email : Shiroenguyenlehoang@gmail.com
 
@@ -17,31 +16,29 @@ Ly Tu Trong high school for the gifted
 
 RMIT university
 
-### Experience
+### Work Experience
 
-BrightChamps, May 2022 to present
+**BrightChamps**, May 2022 to present
 
-Coding educator
+    Coding educator
 
-Teaching kids how to code with Scratch, Thunkable, Python
+        Convice parent to let their kids learn here after a demo class similar to sale.
 
-Infie, May 2022 to present
+        Teaching kids how to code with Scratch, Thunkable, Python.
 
-Frontend developer
+**Infie**, May 2022 to present
 
-Design and working on user interface with Vuejs
+    Frontend developer - Design and working on user interface with Vuejs.
 
-Devops
+    Devops - Install and setting K3S on digital Ocean.
 
-Install and setting K3S on digital Ocean
+[holux](https://holux-vercel.vercel.app) - Personal project
 
-[holux](https://holux-vercel.vercel.app)
+    Real estate landing page creating with html, css and vanilla javascript deployed on vercel.
 
-Real estate landing page creating with html, css and vanilla javascript deployed on vercel.
+[my-resume](https://my-resume-gules.vercel.app/) - Personal project
 
-[my-resume](https://my-resume-gules.vercel.app/)
-
-My resume and online blog creating with docusaurus, markdown, react deployed on vercel. 
+    My resume and online blog creating with docusaurus, markdown, react deployed on vercel. 
 
 ### Skills
 
@@ -53,7 +50,7 @@ Framework: Reactjs, Nextjs, Expressjs
 
 Operation: Ubuntu
 
-Cloud platform: Heroku, Linode
+Cloud platform: Linode, DigitalOcean
 
 Container: Docker
 
