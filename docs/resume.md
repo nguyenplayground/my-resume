@@ -1,59 +1,62 @@
-### My resume
+# **Lê Hoàng Nguyên**
+A software engineering manager aiming to write clean code.
 
-### About me
+## Work Experience
 
-Name: Le Hoang Nguyen
+### ezCareMe
+->_Remote_
 
-Email : Shiroenguyenlehoang@gmail.com
+**Frontend Engineer**
+->_June 2022 to Present_
 
-Phone: 0907102360
+- Increased engineering staff's operating efficiency by providing structure, operating procedures, engineering tools, guidelines, and handbooks.
+- Supported the engineering and product teams to achieve a high level of technical quality, reliability, and ease-of-use.
 
-An self proclamied adventuror into computer science. I'm highly interested in education and software building. Set up open source learning mangement sytem in free time for fun
+### Infie
+->_Remote_
 
-### Education
+**Full Stack Engineer**
+-> _June 2022 to Present_
 
-Ly Tu Trong high school for the gifted
+- Responsible for developing user interface with Vuejs
+- Set up, managed K3S on DigitalOcean droplet.
 
-RMIT university
+### BrightChamps
+->_Remote_
 
-### Work Experience
+**Coding Educator**
+->_May 2022 to Present_
 
-**BrightChamps**, May 2022 to present
+- Teaching kids how to code with Scratch, Thunkable and Python
 
-    Coding educator
+## Skills
 
-        Convice parent to let their kids learn here after a demo class similar to sale.
+Markup: `Markdown` `HTML` `CSS`
 
-        Teaching kids how to code with Scratch, Thunkable, Python.
+Scripting language: `Javascript`
 
-**Infie**, May 2022 to present
+Framework: `Reactjs` `Vuejs` `Nextjs` `Expressjs`
 
-    Frontend developer - Design and working on user interface with Vuejs.
+Operation: `Ubuntu`
 
-    Devops - Install and setting K3S on digital Ocean.
+Cloud platform: `Linode` `DigitalOcean`
 
-[holux](https://holux-vercel.vercel.app) - Personal project
+Container: `Docker`
 
-    Real estate landing page creating with html, css and vanilla javascript deployed on vercel.
+Version control system: `Git`
 
-[my-resume](https://my-resume-gules.vercel.app/) - Personal project
+Management: `Kanban Methodology` `Scrum`
 
-    My resume and online blog creating with docusaurus, markdown, react deployed on vercel. 
+## Education
 
-### Skills
+### RMIT University
+->_2019-2022_
+**Bachelor of Information Technology**
 
-Markup: Markdown, HTML, CSS
+### Ly Tu Trong High School of the Gifted
+->_2016-2019_
+**High School Diploma**
 
-Scripting language: Javascript
+---
 
-Framework: Reactjs, Nextjs, Expressjs
-
-Operation: Ubuntu
-
-Cloud platform: Linode, DigitalOcean
-
-Container: Docker
-
-Version control system: Git
-
-[Click here to dowload my resume in pdf](https://my-resume-gules.vercel.app/resume/lehoangnguyen.pdf)
+||: Email: **<shiroenguyenlehoang@gmail.com>** || Phone: **+0907 102 360** || Website: **[https://my-resume-gules.vercel.app/](https://my-resume-gules.vercel.app/)** :||
